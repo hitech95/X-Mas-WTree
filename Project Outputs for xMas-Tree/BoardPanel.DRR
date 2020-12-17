@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BoardPanel.PcbDoc   20/11/2020  15:29:55
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BoardPanel-RoundHoles.TXT
+ASCII SlotHoles File : BoardPanel-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             287       PTH        0.00inch (0.00mm)
+T2      16mil (0.4mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T3      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
+T4      35mil (0.9mm)                                             Round             5         PTH        0.00inch (0.00mm)
+T5      20mil (0.5mm)                                             Round             40        NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              337
+
+Total Processing Time (hh:mm:ss) : 00:00:00
