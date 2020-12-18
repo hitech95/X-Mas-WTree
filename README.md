@@ -12,7 +12,7 @@ In the 3DModel folder there is the 3D model and the "textures", and some photos.
  - USB C Compatible, it negotiate 5V@900mA
  - IR Remote receiver
  - WiFI controllable
- - Full PCB is 10cm x 10cm so it fit the 2$ JLCPCB option.
+ - Full PCB is 10cm x 10cm so it fit the 2$ [JLCPCB](https://jlcpcb.com/) option.
  - Most of the components are available from LCSC.**\***
  - Different patterns and animations
  - More info on [WLED](https://github.com/Aircoookie/WLED) project
@@ -40,9 +40,20 @@ For now my assembly procedure (without hot plate soldering and solder paste) is:
 Probably with hot air and a low melting point solder paste step 1-6 can be done in a single jump. 
 Right now I only have flux, and 60/40 solder.
 
+I managed to find a old solder paste, and yes, it makes the assemply a lot easier.
+I don't have a stencil and in anyu case soldering the LEDs would require manual reworks due to vias under the pads.
+
+To solder the LEDS with this metod i proceed as:
+ 1. Fill the LED pads with the solder paste proceed with the reflow WITHOUT the LEDs.
+ 2. The solder would be wiked into the vias, apply again the solder paster and properly reflow the LEDs.
+ 
+ With my cheap hot air station I use 360°C to solder all the components and 220°C for the LEDs.
+
 ## PCB Errors
  - The USB FUSE seems to be not working as expected, so a 0OHM link is
-   required.
+   required. (This seems to be a single case)
+ - The LEDS PADs have vias to give them more strength, but unfortunatly makes a lot harder to solder the LEDs
+ - Some 4.7uF caps (LEDs bypass seems to be not needed and some of those cant be soldered or the boards cannot be assempled in shape)
 
 ## PROGRAMMING
 
