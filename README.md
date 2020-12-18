@@ -47,7 +47,11 @@ To solder the LEDS with this metod i proceed as:
  1. Fill the LED pads with the solder paste proceed with the reflow WITHOUT the LEDs.
  2. The solder would be wiked into the vias, apply again the solder paster and properly reflow the LEDs.
  
- With my cheap hot air station I use 360°C to solder all the components and 220°C for the LEDs.
+With my cheap hot air station I use 360°C to solder all the components and 220°C for the LEDs.
+
+I'm a noob with LED soldering I've melted 8 of them on assempling 4 tree. So be careful.
+(Four on the first board, one fell on the fold and was lost. One had RED color not working. The others 2 has been melted on second and third board)
+
 
 ## PCB Errors
  - The USB FUSE seems to be not working as expected, so a 0OHM link is
